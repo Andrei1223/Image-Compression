@@ -1,11 +1,11 @@
-# TEMA 2
+# HW 2 Image Compression using Quaternary Trees
 
-# -----------------------INTRODUCERE-----------------------------
+## INTRODUCERE
 Pentru rezolvarea cerintei a trebuit sa implementez un arbore care are
 4 fii, iar pentru a face asta am ales ca fiii sa fie reprezentati printr un
 vector de pointeri, acesta fiind indexat de la 0.
 
-# -----------------------IMPLEMENTARE-----------------------------
+## IMPLEMENTARE
 
 --> Cerinta 1 - Pentru rezolvarea cerintei s a folosit o matrice de
 structuri alocata dinamic pentru a se citi imaginea. Apoi se parcurge
@@ -67,7 +67,7 @@ valoare in arbore. Totodata, pentru nodurile interioare s a volosit valoarea
 generica pentru valoarea culorii (0 ,0 ,0).
 
 
-# ---------------------------PRECIZARI------------------------------
+## PRECIZARI
 1) Cerinta 1, fiind atat de asemanatoare cu cerinta 2 (in ceea ce priveste
 prelucrarea informatiilor primite din fisier) au la baza aceeasi metoda de 
 parcurgere a arborelui (BFS) doar cu niste mici modificari. Astfel, functiile
@@ -85,7 +85,7 @@ simplu inplantuite cu 2 pointeri (unul spre inceputul listei si
 celalalt spre finalul listei).
 
 
-# --------------------------FISIERE------------------------------
+## FISIERE
 
 Pentru rezolvarea cerintei am facut 2 headere separat care contin functiile de
 adaugare si eliminare specifice structurii lor. Totodata, mai exista un fisier
